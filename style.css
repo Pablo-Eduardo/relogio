@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*Corpo do projeto*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Signika', sans-serif;
+    background-color: #191F41;
+    box-shadow: inset 0 0 5em #1a1833;
+
+}
+
+/*Relógio centralizado*/
+.clock-center {
+    background-color: #191F41;
+    border: 0.4em solid #ffff00;
+    border-radius: 100%;
+    box-shadow: 0 0 2em #ffff00;
+    height: 24em;
+    display: flex;
+    align-items: center;
+}
+
+/*Números do relógio*/
+#clock {
+    font-size: 6em;
+    color: #ffff00;
+    padding: 0 0.1em 0 0.1em;
+    text-shadow: 0 0 0.05em #ffff00;
+}
+
+footer {
+    position: absolute;
+    bottom: 1em;
+}
+
+span {
+    font-size: 1em;
+    color: #ffff00;
+    text-shadow: 0 0 0.5em #ffff00;
+}
